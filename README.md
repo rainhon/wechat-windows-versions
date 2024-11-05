@@ -1,9 +1,7 @@
 # wechat-windows-versions
 收集 Windows 微信版本并保存
+起始版本v3.9.12.17
 
-相关项目: 
-* [Mac微信收集](https://github.com/zsbai/wechat-versions)
-* [WindowsX86 版本收集(目前仅含23年6月12日后的)](https://github.com/tom-snow/wechat-windows-versions-x86)
 
 ## 目录结构
 ```shell
@@ -17,8 +15,6 @@
 
 ## 说明
 项目使用 Github Action 自动下载微信最新版本安装包计算 Hash 值并推送至仓库。
-
-**注意： 3.5.0.46 版本以下（不包含 3.5.0.46 版， 仅下载了一部分）均下载自 [web.archive.org](https://web.archive.org/web/*/https://pc.weixin.qq.com/)**
 
 各版本更新日志可参见 [changelog](https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_faq_list&head=true)
 
