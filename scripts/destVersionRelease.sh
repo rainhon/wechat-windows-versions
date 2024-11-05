@@ -28,10 +28,10 @@ function login_gh() {
     echo -e "## \033[1;33mLogin to github to use github-cli...\033[0m"
     printf "#%.0s" {1..60}
     echo 
-    if [ -z $GHTOKEN ]; then
-        >&2 echo -e "\033[1;31mMissing Github Token! Please get a GHToken from 'Github Settings->Developer settings->Personal access tokens' and set it in Repo Secrect\033[0m"
-        exit 1
-    fi
+    # if [ -z $GHTOKEN ]; then
+    #    >&2 echo -e "\033[1;31mMissing Github Token! Please get a GHToken from 'Github Settings->Developer settings->Personal access tokens' and set it in Repo Secrect\033[0m"
+    #   exit 1
+    # fi
 
     echo $GHTOKEN > WeChatSetup/temp/GHTOKEN
     gh auth login --with-token < WeChatSetup/temp/GHTOKEN
