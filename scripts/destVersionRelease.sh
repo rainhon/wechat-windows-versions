@@ -105,7 +105,7 @@ function clean_data() {
 function main() {
     # rm -rfv WeChatSetup/*
     mkdir -p ${temp_path}/temp
-    login_gh
+    # login_gh
     ## https://github.com/actions/virtual-environments/blob/main/images/linux/Ubuntu2004-Readme.md
     # install_depends
     download_wechat
