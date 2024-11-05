@@ -22,6 +22,7 @@ function install_depends() {
 }
 
 function login_gh() {
+    echo $GHTOKEN
     printf "#%.0s" {1..60}
     echo 
     echo -e "## \033[1;33mLogin to github to use github-cli...\033[0m"
