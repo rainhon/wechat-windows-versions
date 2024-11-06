@@ -1,5 +1,5 @@
 # wechat-windows-versions
-收集 Windows 微信版本并保存
+收集 Windows 微信版本并保存(64bit)
 起始版本v3.9.12.17
 
 
